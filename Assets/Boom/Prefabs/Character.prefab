@@ -153,13 +153,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5975599744851735496}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.002999902, y: 2.2209997, z: -8.602002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3050418752674423389}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1692641163335370290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -261,6 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab06fbdaa8c1b2f49a97f2e94d0a3495, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bullet: {fileID: 4635807448586587859, guid: b54b756c39a0cb942b4819e4bef0dc96, type: 3}
+  _bullet: {fileID: 6906944142815426166, guid: b54b756c39a0cb942b4819e4bef0dc96, type: 3}
   _gunBarrel: {fileID: 8295134746483053669}
-  _bulletSpeed: 50
+  _bulletSpeed: 20
+  _bulletUpwardSpeed: 3.5
